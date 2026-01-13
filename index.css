@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header, .article, .footer {
+    width: 80%;
+    margin: auto;
+    border-style: inset;
+    border-color: rgba(226, 149, 120, 0.5);
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgba(131, 197, 192, 0.3);
+    border-radius: 20px;
+}
+h1, h2, h3, h4, p{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: outset;
+    border-color: rgba(237, 246, 249, 0);;
+    background-color: rgba(226, 148, 120, 0);
+    padding: 5px;
+        width: 80%;
+    
+}
+h1, h2, h3, h4{
+    size: 200%;
+}
+p{
+    size: 150%;
+}
+.top{
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    display: flex;              /* Make items hug each other */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Align vertically */
+    gap: 20px;                  /* Space between items */
+    background-image: linear-gradient(145deg, rgba(0, 109, 119, 0.7), rgba(0, 109, 119, 0.9));
+    margin-bottom: 30px;
+}
+.topimg{
+    height: 100px;
+    color: rgb(0, 0, 0, 0.5);
+}
+img{
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 15px;
+    
+}
+/* General Reset */
